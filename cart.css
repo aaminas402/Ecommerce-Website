@@ -1,0 +1,28 @@
+#cartItems {
+    padding: var(--padding);
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: var(--border-radius);
+    padding: var(--padding);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: var(--padding);
+}
+
+.cart-item img {
+    width: 60px;
+    height: auto;
+    border-radius: var(--border-radius);
+    margin-right: var(--padding);
+}
+
+.cart-item div {
+    flex-grow: 1;
+}
+
+.cart-item button {
+    background-color: var(--accent-color);
+}

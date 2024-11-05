@@ -1,0 +1,26 @@
+.product-list {
+    padding: var(--padding);
+}
+
+.product-item {
+    background-color: white;
+    border-radius: var(--border-radius);
+    padding: var(--padding);
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    border-radius: var(--border-radius);
+}
+
+.product-item h3 {
+    color: var(--primary-color);
+    margin: 8px 0;
+}
+
+.product-item button {
+    width: 100%;
+}
